@@ -188,4 +188,7 @@ jobs:
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        # ✅ No API token needed - uses OIDC automatically!
+        with:
+            skip-existing: true
+            verbose: true
+            # ✅ No API token needed - uses OIDC automatically!
