@@ -1,6 +1,6 @@
 [project]
 name = "fixtime"
-version = "2.0.0"
+version = "2.0.1"
 description = "Time synchronization tool for Kerberos authentication"
 readme = "README.md"
 requires-python = ">=3.8"
