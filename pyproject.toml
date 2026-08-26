@@ -10,6 +10,14 @@ dependencies = [
     "python-dateutil",
     "requests"
 ]
+authors = [
+    {name = "watcher1337"}
+]
+
+[project.urls]
+Homepage = "https://github.com/watcher1337/fixtime"
+Repository = "https://github.com/watcher1337/fixtime"
+Issues = "https://github.com/watcher1337/fixtime/issues"
 
 [project.scripts]
 fixtime = "fixtime:main"
