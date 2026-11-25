@@ -91,6 +91,9 @@ jobs:
             --onefile \
             --clean \
             --name fixtime \
+            --collect-all impacket \
+            --hidden-import=impacket \
+            --hidden-import=impacket.smbconnection \
             fixtime.py
 
       - name: Verify executable
